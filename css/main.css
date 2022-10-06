@@ -144,6 +144,7 @@ img {
 .personal-input:focus, .personal-input:hover {
   outline: 1px solid var(--active-bg-color);
   outline-color: var(--active-bg-color);
+  cursor: pointer;
 }
 
 .personal-input:focus + svg,
@@ -167,7 +168,6 @@ img {
   left: 12px;
   top: 50%;
   translate: 0 -50%;
-  pointer-events: none;
 }
 
 .personal.comment {
