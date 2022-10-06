@@ -1,0 +1,28 @@
+.feature {
+    display: flex;
+    gap: 30px;
+}
+
+.feat-cont {
+    padding-bottom: 0;
+}
+
+.feature .item {
+    width: 270px;
+}
+
+.feature-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color-text);
+    text-transform: uppercase;
+}
+
+
+.feature-page {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.71;
+}

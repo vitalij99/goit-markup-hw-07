@@ -1,0 +1,26 @@
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+
+    background-color: var(--white-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+button.sub-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 26px;
+    padding-right: 0;
+    width: 200px;
+}
