@@ -191,6 +191,7 @@ img {
 
 .personal-contract {
   position: relative;
+  display: inline-block;
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-color-text);
@@ -202,7 +203,7 @@ img {
   transition: fill var(--time-animation);
 }
 
-.contarct-ok:checked + label div {
+.contarct-ok:checked + label span {
   background-color: var(--active-bg-color);
 }
 
