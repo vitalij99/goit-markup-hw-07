@@ -11,6 +11,29 @@
     &__logo {
         color: var(--white-color)
     }
+
+    &__title {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--white-color);
+    }
+
+    &--social {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__link {
+        color: var(--white-color)
+    }
+
+    &--reverse {
+        background-color: var(--footer-icon);
+        fill: var(--white-color);
+    }
 }
 
 .address {
@@ -21,29 +44,11 @@
 
     &__item:not(:last-child) {
         margin-bottom: 9px;
+        
     }
-}
 
-.footer {
-    &__title {
-        display: inline-block;
-            margin-bottom: 20px;
-            font-size: 14px;
-            line-height: 1.14;
-            text-transform: uppercase;
-            color: var(--white-color);
-    }
-    &--social {
-        display: flex;
-        gap: 10px;
-    }
     &__link {
-        color: var(--white-color)
-    }
-
-    &--reverse {
-        background-color: var(--footer-icon);
-        fill: var(--white-color);
+        color: var(--footer-color-a);
     }
 }
 

@@ -121,6 +121,7 @@ img {
 
 .personal {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   margin-bottom: 10px;
 }
@@ -546,17 +547,6 @@ button.sub-footer {
 .footer__logo {
   color: var(--white-color);
 }
-
-.address {
-  font-style: normal;
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 1.71;
-}
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .footer__title {
   display: inline-block;
   margin-bottom: 20px;
@@ -575,6 +565,19 @@ button.sub-footer {
 .footer--reverse {
   background-color: var(--footer-icon);
   fill: var(--white-color);
+}
+
+.address {
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address__link {
+  color: var(--footer-color-a);
 }
 
 .footer-form {
